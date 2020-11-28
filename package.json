@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "compile": "./node_modules/typescript/bin/tsc",
+    "transcode": "npm run compile && node src/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "@types/fluent-ffmpeg": "^2.1.16"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "name": "ffmpeg-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

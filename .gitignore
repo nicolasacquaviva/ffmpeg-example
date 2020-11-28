@@ -1,0 +1,4 @@
+*.mp4
+*.png
+node_modules
+src/index.js
